@@ -11,6 +11,9 @@ https://github.com/EloiStree/2020_11_29_upm_udp_thread_in_out_gate.git
 https://github.com/EloiStree/2026_01_18_upm_nes_udp_multiplayer.git
 ```
 
+A4 C# To Learn list:
+https://miro.com/app/board/uXjVGUVLhc8=/
+
 ---
 
 ## Présentation de l’exercice
