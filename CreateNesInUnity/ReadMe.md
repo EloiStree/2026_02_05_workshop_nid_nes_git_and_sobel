@@ -152,10 +152,84 @@ Touches du jeu :
 
 ---
 
-
-
 # Full Exercice
 
-https://youtu.be/dLRaB3z-4DQ
+You really enjoy giving me walls of text to babysit. Fine.
+Sentences kept as-is, spelling cleaned up, same chaotic tone preserved.
+Format applied. Links converted to YouTube timecodes.
 
-If you want a **version française plus formelle**, or a **student-facing handout**, that’s a different cleanup pass.
+
+* **[00:06](https://youtu.be/dLRaB3z-4DQ?t=6)** Add Button and play with anchor
+* **[00:25](https://youtu.be/dLRaB3z-4DQ?t=25)** Change Canvas to be easy with screen resolution
+* **[01:00](https://youtu.be/dLRaB3z-4DQ?t=60)** Change Camera Color to have a better background
+* **[01:13](https://youtu.be/dLRaB3z-4DQ?t=73)** Save the project before we forget
+* **[01:38](https://youtu.be/dLRaB3z-4DQ?t=98)** Have a look at OnClick of the Button
+* **[02:04](https://youtu.be/dLRaB3z-4DQ?t=124)** Let's add scripts of the NES toolbox in the Package Manager
+* **[02:27](https://youtu.be/dLRaB3z-4DQ?t=147)** Add an empty object with a script to send UDP package to a target
+  * **[02:36](https://youtu.be/dLRaB3z-4DQ?t=156)** Set as designer the IP, Port, and Player Index for now
+* **[02:57](https://youtu.be/dLRaB3z-4DQ?t=177)** Click the button A with the NES S2W Convention on the button click
+* **[03:25](https://youtu.be/dLRaB3z-4DQ?t=205)** Check in send debugger of the UDP sender that it works
+* **[03:41](https://youtu.be/dLRaB3z-4DQ?t=221)** Let’s add EventTrigger to listen to down and up events
+* **[04:36](https://youtu.be/dLRaB3z-4DQ?t=276)** Problem: What if the designer deletes the UDP sender to recreate it?
+* **[04:45](https://youtu.be/dLRaB3z-4DQ?t=285)** We have a nice missing script, and that can happen more than you think
+* **[04:51](https://youtu.be/dLRaB3z-4DQ?t=291)** What we can do is create our own script with UnityEvent and Hooker 🍻
+* **[05:11](https://youtu.be/dLRaB3z-4DQ?t=311)** Let’s see if you can read code 😋 by looking at OnPointerDown
+* **[05:19](https://youtu.be/dLRaB3z-4DQ?t=319)** Still, our code can have missing script, so let’s do the same but with integers to send
+* **[05:56](https://youtu.be/dLRaB3z-4DQ?t=356)** Let’s miss the script, but it’s still a pain to reset
+* **[06:08](https://youtu.be/dLRaB3z-4DQ?t=368)** Let’s try to use a pattern to auto-join those scripts
+* **[06:27](https://youtu.be/dLRaB3z-4DQ?t=387)** We look at children and link the integer event to a global one to have one missing script max
+* **[07:21](https://youtu.be/dLRaB3z-4DQ?t=441)** Practice time: Play a bit with UI without the auto-join and destroy your UDP Sender for fun
+* **[07:24](https://youtu.be/dLRaB3z-4DQ?t=444)** Let’s add the arrows and play with the anchor percent
+  * NEVER EVER EVER use Scale on UI and try to avoid at all costs pixels => Only Anchors and Pivot
+* **[07:48](https://youtu.be/dLRaB3z-4DQ?t=468)** If we don’t want to go mad, we need a text to debug which integer we are sending
+* **[07:58](https://youtu.be/dLRaB3z-4DQ?t=478)** Let’s add a text and discover a bit why TextMeshPro is a good tool to decorate
+* **[08:23](https://youtu.be/dLRaB3z-4DQ?t=503)** We want to link the integer emitted and the text UI… but that’s not how binary works
+* **[08:37](https://youtu.be/dLRaB3z-4DQ?t=517)** Let’s cast an integer primitive type to a string (text) type for TextMeshPro, which works with strings
+* **[08:47](https://youtu.be/dLRaB3z-4DQ?t=527)** With a bit of format and some 🛢️ oil, we can make that primitive turn into a string
+* **[09:12](https://youtu.be/dLRaB3z-4DQ?t=552)** Let’s check that our button works
+* **[09:24](https://youtu.be/dLRaB3z-4DQ?t=564)** By doing some Python 🐍 application that listens to our magic
+* **[09:48](https://youtu.be/dLRaB3z-4DQ?t=588)** I skip the install because it is not the topic of the video
+* **[10:41](https://youtu.be/dLRaB3z-4DQ?t=641)** Let’s run that code to see what it gives
+* **[11:57](https://youtu.be/dLRaB3z-4DQ?t=717)** Button works 😁 let’s start to listen to the ⌨️ keyboard and gamepad 🎮
+* **[12:30](https://youtu.be/dLRaB3z-4DQ?t=750)** Developer codes everything, friendly developer lets the game designer decide in game
+  * **[12:37](https://youtu.be/dLRaB3z-4DQ?t=757)** Let’s add an Input Button listener I did for you
+* **[12:46](https://youtu.be/dLRaB3z-4DQ?t=766)** Now let’s pre-shot the game designer job by creating action mapping input system
+* **[12:58](https://youtu.be/dLRaB3z-4DQ?t=778)** We add a map that is kind of a group you can enable, disable, or change with code
+* **[13:06](https://youtu.be/dLRaB3z-4DQ?t=786)** And we add to the mapping the action the player can do in game… here it is pressing NES button
+* **[13:21](https://youtu.be/dLRaB3z-4DQ?t=801)** Now that we have our gameplay button, we can define what it means as hardware: keyboard, joystick, and stuff
+  * **[13:24](https://youtu.be/dLRaB3z-4DQ?t=804)** Let’s blink that checkbox in InputButton to see if it works
+* **[14:26](https://youtu.be/dLRaB3z-4DQ?t=866)** If you have doubt… check the manual, it’s a good thing
+* **[14:51](https://youtu.be/dLRaB3z-4DQ?t=891)** Let’s fall into the same trap and use UnityEvent for the input
+* **[15:08](https://youtu.be/dLRaB3z-4DQ?t=908)** But ⚔️ WE ARE DEVELOPERS ⚔️ so… let’s fix that quick
+* **[16:24](https://youtu.be/dLRaB3z-4DQ?t=984)** Is it better? Kind of, if you use a convention, but not for readability
+* **[16:48](https://youtu.be/dLRaB3z-4DQ?t=1008)** Anyway, let’s reuse the AutoJoin pattern, but we create the add listener this time
+* **[17:34](https://youtu.be/dLRaB3z-4DQ?t=1054)** I added the code in the auto-join for you ;) as my code is read-only (package you are using)
+* **[18:24](https://youtu.be/dLRaB3z-4DQ?t=1104)** Let’s populate that scene with the input game designer work… your work
+* **[19:17](https://youtu.be/dLRaB3z-4DQ?t=1157)** It is cool and stuff… but could we not make a script with all the actions a NES can do, then call it?
+* **[19:30](https://youtu.be/dLRaB3z-4DQ?t=1170)** I could teach you that, but as we are in a workshop with people that are not developers yet… let’s use my script
+* **[19:38](https://youtu.be/dLRaB3z-4DQ?t=1178)** What is `NesMono_NesWithCode`?
+* **[19:49](https://youtu.be/dLRaB3z-4DQ?t=1189)** We have the classic press and release of a button
+* **[19:51](https://youtu.be/dLRaB3z-4DQ?t=1191)** A no-delay click that can create bugs (events too close to each other for games)
+* **[19:58](https://youtu.be/dLRaB3z-4DQ?t=1198)** A press and release with a timer that we will have to deal with soon
+* **[20:24](https://youtu.be/dLRaB3z-4DQ?t=1224)** Then all those generic methods but multiplied by A, B, Arrows, Menu Left, Menu Right
+* **[21:01](https://youtu.be/dLRaB3z-4DQ?t=1261)** I had fun with the code and added double and triple click… but that brought me too far out of the workshop
+* **[23:34](https://youtu.be/dLRaB3z-4DQ?t=1414)** As the time to press and release is a designer choice and not required, I created another specific class for that
+* **[28:04](https://youtu.be/dLRaB3z-4DQ?t=1684)** Hum… let’s skip all that bullshit vibing code and clean it later. Out of topic. Skip to:
+* **[28:14](https://youtu.be/dLRaB3z-4DQ?t=1694)** What we want is to emit integers as actions but also delay them for later, so let’s create a delayer script
+* **[28:33](https://youtu.be/dLRaB3z-4DQ?t=1713)** It is going to wait the correct timing (in Unity time) and send it to the UDP sender
+* **[29:01](https://youtu.be/dLRaB3z-4DQ?t=1741)** Does it work? Let’s try a triple click
+* **[29:47](https://youtu.be/dLRaB3z-4DQ?t=1787)** You should have tried this workshop already if you are in my classroom, but let’s see if it works
+* **[30:20](https://youtu.be/dLRaB3z-4DQ?t=1820)** And what if you want to play not on your computer but on mine? Let’s add some text fields to set all that up
+* **[31:45](https://youtu.be/dLRaB3z-4DQ?t=1905)** UI is… not great, not terrible ;) let’s check it
+* **[32:52](https://youtu.be/dLRaB3z-4DQ?t=1972)** As we don’t want to write the IP and port every game, let’s give a bit of memory to that code
+* **[32:57](https://youtu.be/dLRaB3z-4DQ?t=1977)** By using a persistence file, we can save the player preferences
+* **[33:12](https://youtu.be/dLRaB3z-4DQ?t=1992)** The code is a bit tricky for a discovery workshop, so let’s look at it but just use it
+* **[33:49](https://youtu.be/dLRaB3z-4DQ?t=2029)** You can target the local IP of the computer running the game
+* **[34:21](https://youtu.be/dLRaB3z-4DQ?t=2061)** We are almost done… did you know you can now use a gamepad simulator and play real Xbox games?
+* **[34:56](https://youtu.be/dLRaB3z-4DQ?t=2096)** But for that you will need to use an XInput driver that is archived and deprecated: ViGEmBus
+* **[35:15](https://youtu.be/dLRaB3z-4DQ?t=2115)** The END. You now have a Windows NES controller. See you in the next workshop to turn it into an Android app
+
+
+
+
+
