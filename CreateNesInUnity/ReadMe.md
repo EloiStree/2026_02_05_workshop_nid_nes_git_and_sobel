@@ -154,6 +154,10 @@ Touches du jeu :
 
 # Full Exercice
 
+[<img width="1845" height="855" alt="image" src="https://github.com/user-attachments/assets/f38e591c-2696-4084-b905-1293340c49d2" />](https://youtu.be/dLRaB3z-4DQ)   
+https://youtu.be/dLRaB3z-4DQ  
+
+
 You really enjoy giving me walls of text to babysit. Fine.
 Sentences kept as-is, spelling cleaned up, same chaotic tone preserved.
 Format applied. Links converted to YouTube timecodes.
