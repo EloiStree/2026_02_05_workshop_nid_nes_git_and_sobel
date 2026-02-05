@@ -1,3 +1,24 @@
+
+**Premier jour**, nous avons réalisé l’exercice sur la NES et testé le résultat dans *TowerFall*.
+Comme *Arc Raiders* n’est pas banni du réseau Technocité, nous avons ensuite commencé l’exercice en y jouant par la manette Xbox.
+
+**Pour le deuxième jour**, je change donc d’objectif.
+Via Git, travaillons ensemble pour venir en aide à notre pauvre Kevin.
+
+Suite à un accident de trottinette, Kevin a perdu l’usage de ses bras.
+Il n’a qu’un seul souhait : pouvoir continuer à jouer à *Arc Raiders* depuis son fauteuil roulant.
+
+Préparez un ensemble de scripts qui, mis bout à bout, lui permettraient de continuer à jouer.
+
+Si cette thématique vous intéresse, n’hésitez pas à contacter :
+* [https://www.kaplab.be](https://www.kaplab.be)
+* [https://handigamer.fr](https://handigamer.fr)
+
+
+
+-----------------------------
+
+
 # NES Git and sobel
 
 > Découvrons Unity en créant une manette NES pour jouer à des jeux depuis notre téléphone.
